@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       model:
-        description: 'SM-G970N'
+        description: 'Model'
         required: true
 
       recovery_link:
-        description: 'https://filebin.net/0ilpnrxqt4ulqyoj'
+        description: 'Recovery Link'
         required: true   
               
 jobs:
